@@ -12,7 +12,7 @@ namespace APiReservas.Repository
             items = new Dictionary<int, Reserva>();
             new List<Reserva>()
             {
-                new Reserva {ReservaId=1, Nome = "Roberto", InicioLocacao = "João Pessoa", FimLocacao="Torre" },
+                new Reserva {ReservaId=1, Nome = "Fulano", InicioLocacao = "AlgumLugar", FimLocacao="Longe" },
                 new Reserva {ReservaId=2, Nome = "Paulo", InicioLocacao = "Campinas", FimLocacao="São Paulo" },
                 new Reserva {ReservaId=3, Nome = "Maria", InicioLocacao = "Jundiaí", FimLocacao="Campinas" }       
             }.ForEach(r =>AddReserva(r));
